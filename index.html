@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Payment Notification Lab</title>
+</head>
+<body>
+  <h2>Payment Notification Test</h2>
+  <p>This is a demonstration only. No payment is made.</p>
+
+  <button onclick="showNotification()">
+    Show Test Notification
+  </button>
+
+  <p id="message"></p>
+
+  <script>
+    function showNotification() {
+      document.getElementById("message").textContent =
+        "TEST ONLY — Payment Successful (Demo)";
+    }
+  </script>
+</body>
+</html>
